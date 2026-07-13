@@ -234,38 +234,6 @@ Attendance_2026-07-13.xlsx
 
 ---
 
-# 📷 Screenshots
-
-## Hardware Setup
-
-```
-(Add Breadboard Wiring Diagram Here)
-```
-
----
-
-## Arduino System
-
-```
-(Add Arduino Setup Image Here)
-```
-
----
-
-## Python Application
-
-```
-(Add Python GUI Screenshot Here)
-```
-
----
-
-## Generated Excel Sheet
-
-```
-(Add Excel Screenshot Here)
-```
-
 ---
 
 # 🔌 Circuit Connections
