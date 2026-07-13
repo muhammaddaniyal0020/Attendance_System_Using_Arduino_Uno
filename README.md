@@ -397,23 +397,42 @@ python main.py
 
 ---
 
-# 👨‍💻 Contributors
+# 👨‍💻 Developers
 
-### Muhammad Daniyal
+## Muhammad Daniyal
 
-**AI Engineer | Embedded Systems Developer**
+**BS Artificial Intelligence**
+
+Institute of Computational Intelligence
+
+Gomal University
+
+Dera Ismail Khan, Pakistan
 
 ---
 
-### Bushra Javed
+## Bushra Javed
 
-**Embedded Systems Developer**
+**BS Artificial Intelligence**
+
+Institute of Computational Intelligence
+
+Gomal University
+
+Dera Ismail Khan, Pakistan
 
 ---
 
-### Dua Bukhari
+## Dua Bukhari
 
-**Software Developer**
+**BS Artificial Intelligence**
+
+Institute of Computational Intelligence
+
+Gomal University
+
+Dera Ismail Khan, Pakistan
+
 
 ---
 
