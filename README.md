@@ -339,85 +339,40 @@ Attendance_2026-07-13.xlsx
 | 5V | LCD, RTC Module |
 | GND | LCD, RTC Module, Buzzer |
 
+---
 
 # 🚀 Installation
 
-## Clone Repository
+## Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Teacher-Attendance-System.git
+git clone https://github.com/muhammaddaniyal0020/Attendance_System_Using_Arduino_Uno.git
 ```
 
----
-
-## Navigate
+## Navigate to the Project
 
 ```bash
-cd Teacher-Attendance-System
+cd Attendance_System_Using_Arduino_Uno
 ```
 
----
-
-## Install Python Packages
+## Install Required Python Libraries
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
 ## Upload Arduino Code
 
-Open
+1. Open Arduino IDE.
+2. Open `attendance_system.ino`.
+3. Select **Arduino UNO R3**.
+4. Select the correct COM Port.
+5. Upload the sketch.
 
-```
-attendance_system.ino
-```
-
-using Arduino IDE.
-
-Select
-
-- Arduino UNO
-- Correct COM Port
-
-Upload the sketch.
-
----
-
-## Run Python
+## Run the Python Application
 
 ```bash
 python main.py
-```
-
----
-
-# 📂 Project Structure
-
-```
-Teacher_Attendance_System/
-
-│
-
-├── Arduino_Code/
-│      attendance_system.ino
-│
-├── Python/
-│      main.py
-│      requirements.txt
-│
-├── Attendance/
-│      Attendance_2026-07-13.xlsx
-│
-├── Images/
-│      Hardware.png
-│      GUI.png
-│      Excel.png
-│
-├── README.md
-│
-└── LICENSE
 ```
 
 ---
