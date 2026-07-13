@@ -268,20 +268,77 @@ Attendance_2026-07-13.xlsx
 
 ---
 
-# 🔌 Circuit Diagram
+# 🔌 Circuit Connections
 
-The complete breadboard wiring diagram is included in this repository.
+## Arduino UNO R3 ↔ 16×2 LCD
 
-Components Connected
-
-- Arduino UNO R3
-- LCD Display
-- Keypad
-- RTC Module
-- Active Buzzer
-- USB Connection to PC
+| LCD Pin | Arduino UNO Pin |
+|----------|-----------------|
+| VSS | GND |
+| VDD | 5V |
+| V0 | 10K Potentiometer (Center Pin) |
+| RS | D7 |
+| RW | GND |
+| E | D8 |
+| D4 | D9 |
+| D5 | D10 |
+| D6 | D11 |
+| D7 | D12 |
+| A (LED+) | 5V |
+| K (LED−) | GND |
 
 ---
+
+## Arduino UNO R3 ↔ 4×4 Matrix Keypad
+
+| Keypad Pin | Arduino UNO Pin |
+|-------------|-----------------|
+| Row 1 | A0 |
+| Row 2 | A1 |
+| Row 3 | A2 |
+| Row 4 | A3 |
+| Column 1 | A4 |
+| Column 2 | A5 |
+| Column 3 | D2 |
+| Column 4 | D4 |
+
+---
+
+## Arduino UNO R3 ↔ DS3231 RTC Module
+
+| RTC Pin | Arduino UNO Pin |
+|----------|-----------------|
+| VCC | 5V |
+| GND | GND |
+| SDA | A4 |
+| SCL | A5 |
+
+---
+
+## Arduino UNO R3 ↔ Active Buzzer
+
+| Buzzer Pin | Arduino UNO Pin |
+|------------|-----------------|
+| Positive (+) | D3 |
+| Negative (−) | GND |
+
+---
+
+## Arduino UNO R3 ↔ Computer
+
+| Connection | Description |
+|------------|-------------|
+| USB Type-B Cable | Serial Communication & Power Supply |
+
+---
+
+### Power Connections
+
+| Arduino Pin | Connected Components |
+|-------------|----------------------|
+| 5V | LCD, RTC Module |
+| GND | LCD, RTC Module, Buzzer |
+
 
 # 🚀 Installation
 
