@@ -331,7 +331,7 @@ pip install -r requirements.txt
 ## Upload Arduino Code
 
 1. Open Arduino IDE.
-2. Open `attendance_system.ino`.
+2. Open `System_Code.ino`.
 3. Select **Arduino UNO R3**.
 4. Select the correct COM Port.
 5. Upload the sketch.
